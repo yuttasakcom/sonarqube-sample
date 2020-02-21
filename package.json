@@ -1,0 +1,34 @@
+{
+  "name": "sonarqube-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts --exec ts-node",
+    "sonar": "sonar-scanner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuttasakcom/sonarqube-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuttasakcom/sonarqube-sample/issues"
+  },
+  "homepage": "https://github.com/yuttasakcom/sonarqube-sample#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sonar-scanner": "^3.1.0",
+    "ts-node": "^8.6.2",
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "@spksoft/koa-decorator": "^1.2.2",
+    "@types/koa": "^2.11.1",
+    "axios": "^0.19.2",
+    "koa": "^2.11.0"
+  }
+}
